@@ -32,3 +32,19 @@ NODE - plataforma que permite executar o JS fora do navegador da internet
 COMANDOS node 
 node -v (versao do node)
 node arquivo.js (executar o arquivo javaScript)
+
+-----------------------------------------------------------------------------------------------
+
+FRAMEWORK
+
+Um FRAMEWORK é um conjunto de ferramentas, bibliotecas e regras que facilita o desenvolvimento de software, fornecendo uma estrutura pronta para o programador. O FRAMEWORK define um "esqueleto" do projeto, onde você preenche com seu código, seguindo padrões já estabelecidos. Isso economiza tempo, evita a repetição de código e garante boas práticas.
+Um FRAMEWORK é como montar um hamburguer em uma rede de fast food. Sem um FRAMEWORK, voce teria que moer a carne, assar o pao, preparar os ingredientes e criar sua propria receita de zero.
+
+
+------------------------------------------------------------------------------------------------
+Passo 1: Acessar a documentação  do framework 
+https://getbootstrap.com/docs/5.3
+
+passo 2: criar os links para o CSS e JS, conforme orientações da documentação
+ 
+Passo 3: CRiar inicialmente uma classe de nome container
