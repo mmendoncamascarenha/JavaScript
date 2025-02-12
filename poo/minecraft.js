@@ -18,7 +18,7 @@ class Bloco {
         console.log("-------------------------------------------------------")
         console.log("┌─┐")
         console.log("└─┘")
-        console.log(`Bloco de ${this.texture}`)
+        console.log(`Bloco de ${this.textura}`)
         console.log(`Resistência: ${this.resistencia}`)
     }
 
@@ -47,6 +47,7 @@ class Enxada extends Bloco{
         console.log(`Resistência: ${this.resistencia}`)
     }
 
+
     arar() {
         console.log("._._._. Terra Arada!")
         if (this.conquista === true) {
@@ -57,6 +58,28 @@ class Enxada extends Bloco{
     // Polimorfismo (Sobreescrever o método existente da classe pai)
     minerar() {
         console.log("♰ Dano Atribuído!")
+    }
+}
+
+class Espada extends Bloco{
+    constructor(textura, resistencia){
+        super(textura, resistencia)  //super -> classe pai
+    } 
+
+    criarEspada() {
+        console.log("--------------------------")
+        console.log("    ⚔️") 
+        console.log(" /")
+        console.log(`Espada de ${this.textura}`)
+        console.log(`Resistência: ${this.resistencia}`)
+    }
+
+    atacar() {
+        console.log("dano!!!")
+    }
+
+    luta() {
+        console.log("pow pow pow")
     }
 }
 
@@ -91,3 +114,12 @@ const enxada3 = new Enxada("Diamante", 10, false)
 enxada3.criarEnxada()
 enxada3.minerar()
 
+const espadinha1 = new Espada("madeira", 10)
+espadinha1.criarEspada()
+espadinha1.atacar()
+espadinha1.luta()
+
+const espada2 = new Espada("ferro", 50)
+espadinha2.criarEspada()
+espadinha2.atacar()
+espadinha2.luta()
