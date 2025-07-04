@@ -25,7 +25,7 @@ JavaScript
 ┣  arquivo1.js
 ┣  arquivo2.js
 ┗  ...
-
+```
 
 Cada arquivo representa um tema ou exercício estudado, com foco na prática.
 
