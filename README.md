@@ -18,7 +18,7 @@ Este repositório contém códigos e anotações relacionadas aos meus estudos d
 
 ---
 
-## 📁 Organização das Pastas
+##  Organização das Pastas
 
 ```bash
 JavaScript
