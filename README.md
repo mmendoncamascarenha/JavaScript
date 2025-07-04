@@ -57,6 +57,7 @@ Se você quiser dar sugestões ou colaborar com o projeto:
 
 Este projeto está sob a licença MIT. Veja o arquivo ![GitHub License](https://img.shields.io/github/license/mmendoncamascarenha/JavaScript) para mais detalhes.
 
+---
 
 ## Autor
 
